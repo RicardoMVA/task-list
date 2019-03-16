@@ -95,3 +95,8 @@ li:hover .listSpan {
 .fa-plus {
 	float: right;
 }
+
+/* will toggle between displaying or not */
+#add-new-todo {
+	display: none;
+}
