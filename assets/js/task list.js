@@ -31,7 +31,7 @@ $("input[type='text']").keypress(function(event){
 	//if enter key is pressed
 	if (event.which === 13) {
 		// save new todo text from input
-		var todoText = $(this).val();
+		let todoText = $(this).val();
 
 		// clear text box
 		$(this).val("");
